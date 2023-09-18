@@ -1,0 +1,10 @@
+Package: demo-deb
+Version:00.00.1
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: Author <author@example.com>
+Homepage: http://example.com
+Description: <demo-deb>
+ Ut esse reprehenderit qui voluptate occaecat ea id excepteur aute nulla.
+Depends: xkb-data
