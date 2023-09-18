@@ -1,10 +1,10 @@
 Do you need to create a Debian `.deb` package and you don't know how?
 
-This is a simple way to create a rudimental package that works on any Debian based distro
+This is a simple way to create a rudimental package that works on any Debian based distro:
 
-Start with editing the content of `code/DEBIAN/control` file
+Start with editing the content of `code/DEBIAN/control` file.
 
-Outside of `code` add any file (directory and subdirectory) that you need to add to the root filesystem, like you see here in the `usr` directory
+Then, outside of `code` directory add any file (directory and subdirectory) that you need to add to the root filesystem, like you see here in the `usr` directory. A `.deb` works in similar ways as a `.tgz` package (just smarter thanks to the hooks that you see in the `code` directory)
 
 Then create your `.deb` package like this:
 
